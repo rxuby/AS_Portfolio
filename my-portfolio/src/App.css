@@ -1,0 +1,110 @@
+body {
+  /* background-color: #ffffff; */
+  background-color: #FFF5E4;
+  overflow-x: hidden;
+}
+
+.nav {
+  background: rgba(255, 255, 255, 0.553);
+  /* border-radius: 16px; */
+  box-shadow: 0 2px 5px rgba(131, 131, 131, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(20px);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+.about {
+  font-family: "Varela Round", sans-serif;
+}
+
+.work-name {
+  font-family: "Varela Round", sans-serif;
+}
+
+.tool {
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  -webkit-text-stroke: 2px #4c63af;
+}
+/* D6E6F2 */
+
+.contact-icon{
+  -webkit-text-stroke: 2px #4c63af;
+  border-color: #4c63af;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  /* text-align: center;
+  font-size: 18px;
+  background: #fff; */
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* .swiper {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+} */
+
+
+.swiper-button-next::after {
+  color: #4c63af;
+}
+
+.swiper-button-prev::after {
+  color: #4c63af;
+}
+
+.swiper-button-next {
+  width: 50px !important;
+  height: 50px !important;
+  /* margin-top: 120px !important; */
+  /* background-image: url(./images/circle-right-regular.svg); */
+  background-repeat: no-repeat;
+  /* background-size: 100% auto; */
+  background-position: center;
+  /* filter:#4c63af; */
+}
+
+/* .swiper-button-next::after {
+  display: none;
+} */
+
+.btn-plus {
+  box-shadow: 0px 2px 0px #4c63af;
+}
+
+.work-box{
+  box-shadow: 4px 4px 0px #4c63af;
+}
+
+.pic-box{
+  box-shadow: 7px 7px 0px #4c63af;
+}
+
+.contact-box{
+  box-shadow: 0px 3px 0px #4c63af;
+}
+
+.about-box{
+  font-family: "Varela Round", sans-serif;
+}
