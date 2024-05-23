@@ -11,7 +11,7 @@ import {
   useAnimationFrame,
 } from "framer-motion";
 import { wrap } from "@motionone/utils";
-
+import sticker1 from "../images/sticker1.png"
 interface ParallaxProps {
   children: string;
   baseVelocity: number;
@@ -51,8 +51,8 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
       <motion.div className="scroller" style={{ x }}>
         <span>{children} </span>
         <span>{children} </span>
-        <span>{children} </span>
-        <span>{children} </span>
+        {/* <span>{children} </span>
+        <span>{children} </span> */}
       </motion.div>
     </div>
   );
@@ -61,22 +61,26 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
 export default function BreakPage() {
   return (
     <section>
-      <div className="bg-red-500 ">
+      {/* <div className=" bg-red-500 md:rotate-2">
         <ParallaxText baseVelocity={-1}>
           Hello! Hello! Hello! Hello! Hello!
         </ParallaxText>
-      </div>
+      </div> */} 
 
-      <div className="bg-[#92a1d4] -rotate-2">
-        <ParallaxText baseVelocity={1}>
-          bananana bananana bananana bananana bananana bananana
-        </ParallaxText>
-      </div>
-      <div className="bg-[#FFD1D1] ">
+      <div className="bg-[#92a1d4]  md:-rotate-2">
         <ParallaxText baseVelocity={-2}>
-          bananana bananana bananana bananana bananana bananana
+        Design this portfolio website by Jutapon Chaiyakhun 
         </ParallaxText>
       </div>
+      
+
+{/* 
+      <div className="border-none bg-[] md:-rotate-2">
+        <ParallaxText baseVelocity={2}>
+        Computer Science KKU58 Computer Science KKU58
+        </ParallaxText>
+      </div> */}
+     
     </section>
   );
 }
