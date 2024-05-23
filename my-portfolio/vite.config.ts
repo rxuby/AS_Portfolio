@@ -6,7 +6,7 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   // base: "/my-portfolio",
-  base:"/AS_Portfolio",
+  base:"/AS_Portfolio/",
   resolve: {
     alias: {
       "@components": path.resolve(__dirname, "src/components"),
