@@ -196,7 +196,8 @@ h1 {
   z-index: 9999;
 }
 
-.more {
+.text-ty {
+  -webkit-text-stroke: 3px #4c63af;
   text-shadow: 3px 4px 0px #4c63af;
   transition: 0.2s;
 }

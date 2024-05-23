@@ -17,12 +17,16 @@ function AboutPage() {
   return (
     <motion.div
       ref={refAbout}
-      initial={{ opacity: 0, x: -50 }}
+      initial={{ opacity: 0 }}
       animate={inViewAbout ? { opacity: 1, x: 0 } : {}}
+      // transition={{ duration: 1, delay: 2 }}
       className="bg-white border-[3px] border-[#4c63af] rounded-3xl mx-5"
     >
       <div className="pt-3 ">
-        <img
+        <motion.img
+          // initial={{ opacity: 0, x: -50 }}
+          // animate={inViewAbout ? { opacity: 1, x: 0 } : {}}
+          // transition={{ duration: 1, delay: 2 }}
           className="absolute w-44 top-[32rem] right-0 rotate-90 md:w-80 md:right-0 md:top-[25rem] md:rotate-[100deg] lg:right-14 lg:top-[35rem] lg:rotate-90 xl:rotate-12 xl:right-[500px] xl:top-0"
           src={vector}
           alt=""
@@ -81,7 +85,7 @@ function AboutPage() {
             className="pic-box border-[4px] border-[#4c63af] p-6 xl:-rotate-6"
             initial={{ opacity: 0, rotate: 0 }}
             animate={inViewImage ? { opacity: 1, rotate: -6 } : {}}
-            transition={{ duration: 1, delay: 2 }}
+            transition={{ duration: 1, delay: 1 }}
           >
             <img
               width={"100%"}

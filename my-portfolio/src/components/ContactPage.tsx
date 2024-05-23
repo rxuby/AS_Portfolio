@@ -17,8 +17,12 @@ import star3 from "../images/star3.png";
 import star4 from "../images/star4.png";
 import flower1 from "../images/flower1.png";
 import heart2 from "../images/heart2.png";
-import heart5 from "../images/heart5.png";
+import heart4 from "../images/heart4.png";
 import flower3 from "../images/flower3.png";
+import small4 from "../images/small4.png"
+import heart7 from "../images/heart7.png"
+// import fill from "../images/fill.png"
+import stamp1 from "../images/stamp1.png"
 
 function ContactPage() {
   const copyToClipboard = (text: string) => {
@@ -42,26 +46,32 @@ function ContactPage() {
   return (
     <div>
       <img
-        className=" absolute w-20 top-16 md:w-48 md:top-[4rem] md:left-12 md:-rotate-12 lg:top-[15rem] lg:left-20 lg:-rotate-12 xl:top-[85px] xl:left-20 xl:-rotate-12"
-        src={sticker2}
+        className=" absolute w-20 top-16  md:w-[12rem] md:top-[4rem] md:left-12 md:-rotate-12 lg:top-[15rem] lg:left-20 lg:-rotate-12 xl:top-[6rem] xl:left-[10rem] xl:-rotate-6"
+        src={stamp1}
         alt=""
       />
+      {/* <img
+        className=" absolute w-20 top-16 md:w-20 md:top-[4rem] md:left-12 md:-rotate-12 lg:top-[15rem] lg:left-20 lg:-rotate-12 xl:top-[18rem] xl:left-[20rem] xl:rotate-12"
+        src={heart7}
+        alt=""
+      /> */}
+    
       <img
-        className=" absolute w-20 top-20 right-20 md:w-48 md:top-[6rem] md:right-12  md:rotate-6 lg:top-52 lg:right-24 lg:rotate-6 xl:top-16 xl:right-24 xl:rotate-6"
+        className=" absolute w-20 top-20 right-20 md:w-48 md:top-[6rem] md:right-12  md:rotate-6 lg:top-52 lg:right-24 lg:rotate-6 xl:top-[8rem] xl:right-[10rem] xl:rotate-6"
         src={sticker3}
         alt=""
       />
       <div className="contact-box flex flex-col justify-center items-center  md:justify-center md:items-center py-4  gap-6 bg-white">
         <h1
           style={{ fontFamily: "Lilita One" }}
-          className="contact justify-center text-5xl md:text-7xl  text-[#FF9494] "
+          className="contact justify-center z-50 text-5xl md:text-7xl  text-[#FF9494] "
         >
           MY CONTACT
         </h1>
         {/* <img className="absolute w-36 left-96 top-36 rotate-45" src={vector2} alt="" /> */}
 
         <div
-          className="flex flex-col items-start md:flex-col md:justify-center md:items-start lg:flex-row  xl:flex-row  gap-10 mt-20 "
+          className="flex flex-col items-start z-50 md:flex-col md:justify-center md:items-start lg:flex-row  xl:flex-row  gap-10 mt-20 "
           style={{ fontFamily: "Varela Round" }}
         >
           <div
@@ -157,15 +167,15 @@ function ContactPage() {
       {/* <img className="absolute w-24 md:right-36 md:top-[27rem] md:-rotate-12 lg:right-56 lg:top-[27rem] lg:-rotate-12 xl:right-56 xl:top-[18rem]  z-20 xl:-rotate-12" src={flower1} alt="" /> */}
       {/* <img
         className="absolute xl:w-40 lg:w-36 md:w-28 md:left-[0rem] md:bottom-[9rem]  md:-rotate-12 lg:left-[10rem] lg:bottom-[26rem]  lg:-rotate-12 xl:left-[350px] xl:bottom-7 z-20 xl:-rotate-12 "
-        src={heart5}
+        src={heart6}
         alt=""
       /> */}
 
       <h1
         style={{ fontFamily: "Lilita One" }}
-        className="text-ty absolute flex justify-center items-center text-5xl p-3 px-14  md:-rotate-3  md:right-5 md:bottom-[10rem] lg:-rotate-3  lg:right-20 lg:bottom-[28rem] xl:-rotate-3 xl:text-7xl  xl:right-20 xl:bottom-16  text-white "
+        className="text-ty absolute flex justify-center items-center text-5xl p-3 px-14  md:-rotate-3  md:right-5 md:bottom-[10rem] lg:-rotate-3  lg:right-20 lg:bottom-[28rem] xl:-rotate-3 xl:text-7xl  xl:right-20 xl:bottom-16   text-[#FF9494]"
       >
-        Thanks for visit my portfolio
+        Thanks for visit my portfolio 
       </h1>
     </div>
   );
