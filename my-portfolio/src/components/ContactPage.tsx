@@ -3,7 +3,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import sticker3 from "../images/sticker3.png";
-import stamp2 from "../images/stamp2.png"
+// import stamp2 from "../images/stamp2.png"
 
 function ContactPage() {
   const copyToClipboard = (text: string) => {
