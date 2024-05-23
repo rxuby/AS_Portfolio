@@ -5,7 +5,7 @@ import vacab from "@images/vocabulary.png";
 import yugioh from "@images/yugioh.png";
 import antdesign from "@images/antdesign.png";
 import asweb from "@images/asweb.png";
-import pascal from "@images/pascal.webp";
+// import pascal from "@images/pascal.webp";
 import redux from "@images/redux.png";
 import wscss from "@images/wscss.png";
 import { TiPlusOutline } from "react-icons/ti";
@@ -13,7 +13,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { SiVite } from "react-icons/si";
-import { RiJavascriptFill } from "react-icons/ri";
+// import { RiJavascriptFill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiAntdesign } from "react-icons/si";
@@ -22,9 +22,9 @@ import { SiAxios } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
-import { Button, Popover } from "antd";
-import line from "../images/Horizontal Straight Long Line 4.png";
-import sticker1 from "../images/sticker1.png";
+import { Popover } from "antd";
+// import line from "../images/Horizontal Straight Long Line 4.png";
+// import sticker1 from "../images/sticker1.png";
 import "../App.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -33,7 +33,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
-import CssFilterConverter from "css-filter-converter";
+
 
 const content1 = (
   <div style={{ fontFamily: "Lilita One", color: "#3953a5" }}>
@@ -124,7 +124,6 @@ const content9 = (
   </div>
 );
 
-const result = CssFilterConverter.hexToFilter("#69A1DE");
 
 function WorkPage() {
   const { ref: refWork, inView: inViewWork } = useInView({

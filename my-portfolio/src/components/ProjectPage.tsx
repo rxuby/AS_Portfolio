@@ -5,7 +5,7 @@ import vacab from "@images/vocabulary.png";
 import yugioh from "@images/yugioh.png";
 import antdesign from "@images/antdesign.png";
 import asweb from "@images/asweb.png";
-import pascal from "@images/pascal.webp";
+// import pascal from "@images/pascal.webp";
 import redux from "@images/redux.png";
 import wscss from "@images/wscss.png";
 import { TiPlusOutline } from "react-icons/ti";
@@ -13,22 +13,22 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { SiVite } from "react-icons/si";
-import { RiJavascriptFill } from "react-icons/ri";
+// import { RiJavascriptFill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiAntdesign } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { SiAxios } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
-import { TiArrowRightOutline } from "react-icons/ti";
+// import { TiArrowRightOutline } from "react-icons/ti";
 
-import { Button, Popover } from "antd";
+import { Popover } from "antd";
 
-import { Swiper, SwiperSlide } from "swiper/react";
+// import { Swiper, SwiperSlide } from "swiper/react";
 import "../App.css";
 
-import { Pagination, Navigation } from "swiper/modules";
-import { Link, useNavigate } from "react-router-dom";
+// import { Pagination, Navigation } from "swiper/modules";
+// import { Link, useNavigate } from "react-router-dom";
 
 const content1 = (
   <div style={{ fontFamily: "Lilita One", color: "#3953a5" }}>

@@ -31,13 +31,13 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
   const x = useTransform(baseX, (v) => `${wrap(-20, -45, v)}%`);
 
   const directionFactor = useRef<number>(1);
-  useAnimationFrame((t, delta) => {
-    let moveBy = directionFactor.current * baseVelocity * (delta / 1000);
+  useAnimationFrame((_t, delta) => {
+    let moveBy = directionFactor.current * baseVelocity * (delta / 8000);
 
     if (velocityFactor.get() < 0) {
-      directionFactor.current = -1;
+      directionFactor.current = -3;
     } else if (velocityFactor.get() > 0) {
-      directionFactor.current = 1;
+      directionFactor.current = 3;
     }
 
     moveBy += directionFactor.current * moveBy * velocityFactor.get();
@@ -61,18 +61,17 @@ export default function BreakPage() {
   return (
     <section>
       <div className="bg-[#92a1d4]  md:-rotate-2">
-        <ParallaxText baseVelocity={-2}>
-        Design this portfolio website by Jutapon Chaiyakhun 
+        <ParallaxText baseVelocity={3}>
+          Design this portfolio website by Jutapon Chaiyakhun
         </ParallaxText>
       </div>
-      
-{/* 
+
+      {/* 
       <div className="border-none bg-[] md:-rotate-2">
         <ParallaxText baseVelocity={2}>
         Computer Science KKU58 Computer Science KKU58
         </ParallaxText>
       </div> */}
-     
     </section>
   );
 }

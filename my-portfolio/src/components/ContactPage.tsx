@@ -1,28 +1,9 @@
-import React from "react";
 import { FaGithub } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
-import { FiGithub } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
-import fill from "../images/Fill.png";
-import vector2 from "../images/vector2.png";
-import vector3 from "../images/vector3.png";
-import sticker2 from "../images/sticker2.png";
 import sticker3 from "../images/sticker3.png";
-import rainbow1 from "../images/rainbow1.png";
-import star1 from "../images/star1.png";
-import star2 from "../images/star2.png";
-import star3 from "../images/star3.png";
-import star4 from "../images/star4.png";
-import flower1 from "../images/flower1.png";
-import heart2 from "../images/heart2.png";
-import heart4 from "../images/heart4.png";
-import flower3 from "../images/flower3.png";
-import small4 from "../images/small4.png"
-import heart7 from "../images/heart7.png"
-// import fill from "../images/fill.png"
-import stamp1 from "../images/stamp1.png"
+import stamp2 from "../images/stamp2.png"
 
 function ContactPage() {
   const copyToClipboard = (text: string) => {
@@ -45,11 +26,11 @@ function ContactPage() {
 
   return (
     <div>
-      <img
-        className=" absolute w-20 top-16  md:w-[12rem] md:top-[4rem] md:left-12 md:-rotate-12 lg:top-[15rem] lg:left-20 lg:-rotate-12 xl:top-[6rem] xl:left-[10rem] xl:-rotate-6"
-        src={stamp1}
+      {/* <img
+        className=" absolute w-20 top-16  md:w-[10rem] md:top-[4rem] md:left-12 md:-rotate-12 lg:top-[15rem] lg:left-20 lg:-rotate-12 xl:top-[8rem] xl:left-[12rem] xl:-rotate-6"
+        src={stamp2}
         alt=""
-      />
+      /> */}
       {/* <img
         className=" absolute w-20 top-16 md:w-20 md:top-[4rem] md:left-12 md:-rotate-12 lg:top-[15rem] lg:left-20 lg:-rotate-12 xl:top-[18rem] xl:left-[20rem] xl:rotate-12"
         src={heart7}
@@ -167,7 +148,7 @@ function ContactPage() {
       {/* <img className="absolute w-24 md:right-36 md:top-[27rem] md:-rotate-12 lg:right-56 lg:top-[27rem] lg:-rotate-12 xl:right-56 xl:top-[18rem]  z-20 xl:-rotate-12" src={flower1} alt="" /> */}
       {/* <img
         className="absolute xl:w-40 lg:w-36 md:w-28 md:left-[0rem] md:bottom-[9rem]  md:-rotate-12 lg:left-[10rem] lg:bottom-[26rem]  lg:-rotate-12 xl:left-[350px] xl:bottom-7 z-20 xl:-rotate-12 "
-        src={heart6}
+        src={stamp2}
         alt=""
       /> */}
 

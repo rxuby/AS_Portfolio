@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import snowball from "@images/sn.jpg";

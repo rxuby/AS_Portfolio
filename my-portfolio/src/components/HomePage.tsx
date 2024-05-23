@@ -1,13 +1,8 @@
-import React from "react";
 import { motion } from "framer-motion";
-import { BsStars } from "react-icons/bs";
 import star from "../images/star.svg"
-import sticker1 from "../images/sticker1.png"
-import small1 from "../images/small1.png"
 import small2 from "../images/small2.png"
-import small3 from "../images/small3.png"
 import small4 from "../images/small4.png"
-import fill from "../images/Fill.png"
+
 
 function HomePage() {
   return (
